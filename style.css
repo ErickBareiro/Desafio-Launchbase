@@ -90,3 +90,18 @@ header {
     padding-bottom: 5px;
     border-bottom: 1px solid var(--color-blue);
 }
+
+/*=== Conteudos ===*/
+
+.come-back a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.come-back a:hover {    
+    color: var(--color-blue);
+    transition: color 200ms;
+}
