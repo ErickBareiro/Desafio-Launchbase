@@ -8,6 +8,8 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Conteúdo</title>
@@ -16,20 +18,64 @@
 
 <body>
     <header>
-        <div class="come-back">
-            <a class="material-icons" href="index.html">keyboard_return</a>
+        <div class="content">
+            <div class="come-back">
+                <a class="material-icons" href="index.html">keyboard_return</a>
+            </div>
+            <div class="conteudo">Conteúdo</div>
         </div>
     </header>
 
     <section class="cards">
         <div class="card">
-            <img src="https://blog.rocketseat.com.br/content/images/2020/10/criando-um-blog-com-contador-de-visitas-usando-nextjs-e-mongodb-em-producao.jpg"
-                alt="Next.js">
-            <h2>Criando um Blog com contador de visitas usando NextJs e MongoDB</h2>
-            <span>por</span>
-            <h3>Thiago Marinho</h3>
-            <span>Tempo de leitura</span>
-            <h4>1 Hora</h4>
+            <article>
+                <div class="item-image"
+                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/10/teste.jpg);">
+                </div>
+                <h2>Construindo App com Mapa usando React Native Maps e MapBox</h2>
+                <div class="info">
+                    <span>por</span>
+                    <h3>Thiago Marinho</h3>
+                </div>
+                <div class="time">
+                    <span>Tempo de leitura:</span>
+                    <h4>8 minutos</h4>
+                </div>
+            </article>
+        </div>
+
+        <div class="card">
+            <article>
+                <div class="item-image"
+                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/11/thumb-como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal.jpg);">
+                </div>
+                <h2>Como renomear vários arquivos de uma vez usando o terminal</h2>
+                <div class="info">
+                    <span>por</span>
+                    <h3>Thiago Marinho</h3>
+                </div>
+                <div class="time">
+                    <span>Tempo de leitura:</span>
+                    <h4>2 Minutos</h4>
+                </div>
+            </article>
+        </div>
+
+        <div class="card">
+            <article>
+                <div class="item-image"
+                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/10/dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida.jpg);">
+                </div>
+                <h2>Dark Mode com CSS — mudando a aparência do Blog de maneira simples e rápida</h2>
+                <div class="info">
+                    <span>por</span>
+                    <h3>Thiago Marinho</h3>
+                </div>
+                <div class="time">
+                    <span>Tempo de leitura:</span>
+                    <h4>3 Minutos</h4>
+                </div>
+            </article>
         </div>
     </section>
 
