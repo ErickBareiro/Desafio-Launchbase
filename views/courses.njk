@@ -1,13 +1,9 @@
-{% extends "layout.html" %}
-
+{% extends "layout.njk" %}
 {% block content %}
-
-<section class="cards">
+    <section class="cards">
         <div class="card" id="construindo-um-app-com-mapas-usando-react-native-maps-e-mapbox/">
             <article>
-                <div class="item-image"
-                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/10/teste.jpg);">
-                </div>
+                <div class="item-image" style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/10/teste.jpg);"></div>
                 <h2>Construindo App com Mapa usando React Native Maps e MapBox</h2>
                 <div class="info">
                     <span>por</span>
@@ -19,12 +15,12 @@
                 </div>
             </article>
         </div>
-
         <div class="card" id="como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal/">
             <article>
-                <div class="item-image"
-                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/11/thumb-como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal.jpg);">
-                </div>
+                <div
+                    class="item-image"
+                    style="background-image:
+                        url(https://blog.rocketseat.com.br/content/images/2020/11/thumb-como-renomear-varios-arquivos-de-uma-vez-usando-o-terminal.jpg);"></div>
                 <h2>Como renomear vários arquivos de uma vez usando o terminal</h2>
                 <div class="info">
                     <span>por</span>
@@ -36,12 +32,12 @@
                 </div>
             </article>
         </div>
-
         <div class="card" id="dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida/">
             <article>
-                <div class="item-image"
-                    style="background-image: url(https://blog.rocketseat.com.br/content/images/2020/10/dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida.jpg);">
-                </div>
+                <div
+                    class="item-image"
+                    style="background-image:
+                        url(https://blog.rocketseat.com.br/content/images/2020/10/dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida.jpg);"></div>
                 <h2>Dark Mode com CSS — mudando a aparência do Blog de maneira simples e rápida</h2>
                 <div class="info">
                     <span>por</span>
@@ -54,7 +50,6 @@
             </article>
         </div>
     </section>
-
     <div class="modal-overlay">
         <div class="modal">
             <div class="buttons-modal">
@@ -65,12 +60,10 @@
                     <i class="material-icons">disabled_by_default</i>
                 </a>
             </div>
-
             <div class="modal-content">
                 <iframe src="" frameborder="0"></iframe>
             </div>
         </div>
     </div>
-
     <script src="scripts.js"></script>
 {% endblock %}

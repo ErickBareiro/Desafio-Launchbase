@@ -1,5 +1,4 @@
-{% extends "layout.html" %}
-
+{% extends "layout.njk" %}
 {% block content %}
     <main>
         <div class="container-notFound">
@@ -8,9 +7,11 @@
             </div>
             <div class="info404">
                 <h1>Ops... Página não encontrada.</h1>
-                <h3>Por favor retorne a página principal clicando <a href="/"><b>AQUI</b></a>.</h3>
+                <h3>Por favor retorne a página principal clicando
+                    <a href="/">
+                        <b>AQUI</b>
+                    </a>.</h3>
             </div>
         </div>
     </main>
-
-    {% endblock %}
+{% endblock %}
